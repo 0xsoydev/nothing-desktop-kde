@@ -60,8 +60,11 @@ plasma-apply-lookandfeel -a com.nothingplasma.dark
 say "Removing non-Nothing panels, setting the dock to auto-hide"
 qdbus6 org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript '
 for (const p of panelIds.map(panelById)) {
-  if (p.type !== "com.nothingplasma.panel") p.remove();
-  else if (p.location === "bottom") p.hiding = "autohide";
+  if (p.type !== "com.nothingplasma.panel") { p.remove(); continue; }
+  if (p.location === "bottom") p.hiding = "autohide";
+  // Volume changes use KDE'"'"'s own OSD, like brightness, instead of the island.
+  p.currentConfigGroup = ["General"];
+  if (p.location === "top") p.writeConfig("islandAudioOsd", false);
 }' >/dev/null
 "$DATA/nothing-plasma/bin/nothing-control.sh" launcher-meta on
 
