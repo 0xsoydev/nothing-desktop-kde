@@ -1,7 +1,6 @@
 # nothing-desktop-kde
 
-My NothingOS-style KDE Plasma 6 desktop, in one repo. Private: it ships Nothing's Ndot font and
-unlicensed code from duckpah/Nothing-SDDM, which are fine for personal use but not for publishing.
+My NothingOS-style KDE Plasma 6 desktop, in one repo. Private: it ships Nothing's Ndot font and code from duckpah/Nothing-SDDM, which are fine for personal use but not for publishing.
 
 ## Restore on a fresh machine
 
