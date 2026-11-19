@@ -1,0 +1,147 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+import QtQuick
+import QtQuick.Controls as QQC2
+import QtQuick.Layouts
+import org.kde.kcmutils as KCM
+import "../../../../../shared" as Glassy
+
+KCM.SimpleKCM {
+    id: page
+    property int cfg_widgetVariant
+    property int cfg_glyphZone
+    property alias cfg_sensitivity: sensitivity.value
+    property alias cfg_progress: progress.checked
+    property alias cfg_arcSweep: sweep.value
+    property alias cfg_mirror: mirror.checked
+    property int cfg_corner
+    property alias cfg_segments: segments.value
+    property alias cfg_sideways: sideways.checked
+    readonly property int shape: cfg_widgetVariant
+    property alias cfg_themeMode: theme.themeMode
+    property alias cfg_useSystemAccent: theme.useSystemAccent
+    property alias cfg_monochrome: theme.monochrome
+    property alias cfg_transparent: theme.transparent
+
+    ColumnLayout {
+        spacing: 10
+        Glassy.StyleCards {
+            Layout.fillWidth: true
+            selected: page.cfg_widgetVariant
+            onPicked: value => page.cfg_widgetVariant = value
+            themeMode: theme.themeMode
+            useSystemAccent: theme.useSystemAccent
+            monochrome: theme.monochrome
+            styles: ["ring", "arc", "strip", "line", "dot", "corner", "dots"].map((shape, i) => ({
+                label: [i18n("Ring"), i18n("Arc"), i18n("Strip"), i18n("Line"), i18n("Dot"), i18n("Corner"), i18n("Dot ring")][i], value: i,
+                source: Qt.resolvedUrl("../GlyphLight.qml"),
+                props: {shape: shape, light: n => shape === "dots" ? Math.max(0, 1 - Math.min(n, 12 - n) / 3) : [0.95, 0.45, 0.8, 0.25][n % 4],
+                        fill: 0.6, progress: progress.checked, sweep: sweep.value, mirror: mirror.checked, corner: page.cfg_corner, segments: segments.value, transparent: theme.transparent}
+            }))
+        }
+        QQC2.CheckBox {
+            id: progress
+            visible: page.shape === 1 || page.shape === 3 || page.shape === 5
+            text: i18n("Fill along with the beat, like a progress bar")
+        }
+        QQC2.CheckBox {
+            id: mirror
+            visible: page.shape === 3
+            text: i18n("The other diagonal")
+        }
+        QQC2.Label {
+            Layout.fillWidth: true
+            visible: [2, 3, 5].includes(page.shape)
+            text: i18n("Resize the widget to stretch it: lines run corner to corner, or straight when long and thin; the strip gains segments; the corner's arms follow the edges.")
+            wrapMode: Text.Wrap
+            opacity: 0.7
+            font.pointSize: 9
+        }
+        RowLayout {
+            visible: page.shape === 2
+            QQC2.Label { text: i18n("Segments:") }
+            // 1 never shows: the step from Auto goes straight to two.
+            QQC2.SpinBox {
+                id: segments
+                from: 0
+                to: 16
+                textFromValue: value => value === 0 ? i18n("Auto") : String(value)
+                valueFromText: text => text === i18n("Auto") ? 0 : Math.max(2, Number(text) || 0)
+                onValueModified: if (value === 1) value = up.pressed ? 2 : 0
+            }
+        }
+        QQC2.CheckBox {
+            id: sideways
+            visible: page.shape === 2
+            text: i18n("On its side")
+        }
+        // Where the corner sits; four of them frame something.
+        RowLayout {
+            visible: page.shape === 5
+            spacing: 10
+            QQC2.Label { text: i18n("Corner:") }
+            Repeater {
+                model: ["⌜", "⌝", "⌞", "⌟"]
+                QQC2.RadioButton {
+                    required property string modelData
+                    required property int index
+                    text: modelData
+                    font.pointSize: 14
+                    Accessible.name: [i18n("Top left"), i18n("Top right"), i18n("Bottom left"), i18n("Bottom right")][index]
+                    checked: page.cfg_corner === index
+                    onToggled: {
+                        page.cfg_corner = index;
+                        checked = Qt.binding(() => page.cfg_corner === index);
+                    }
+                }
+            }
+        }
+        RowLayout {
+            visible: page.shape === 1
+            QQC2.Label { text: i18n("Arc length:") }
+            QQC2.Slider {
+                id: sweep
+                Layout.fillWidth: true
+                from: 60
+                to: 330
+                stepSize: 5
+            }
+            QQC2.Label { text: Math.round(sweep.value) + "°" }
+        }
+        // Which part of the interface this light plays.
+        RowLayout {
+            spacing: 10
+            QQC2.Label { text: i18n("Zone:") }
+            Repeater {
+                model: 6
+                QQC2.RadioButton {
+                    required property int index
+                    text: index === 0 ? i18n("Auto") : String(index)
+                    checked: page.cfg_glyphZone === index
+                    onToggled: {
+                        page.cfg_glyphZone = index;
+                        checked = Qt.binding(() => page.cfg_glyphZone === index);
+                    }
+                }
+            }
+        }
+        QQC2.Label {
+            Layout.fillWidth: true
+            text: i18n("All glyph widgets, however many, play one show to the same beat: soft passages glow softly and hits flash. On every beat the lead moves on to the next light, in a walk that changes every eight beats; the zone is a tier of loudness, so harder hits light more zones and the hardest light all. Auto spreads the lights over the zones in the order they were added.")
+            wrapMode: Text.Wrap
+            opacity: 0.7
+            font.pointSize: 9
+        }
+        RowLayout {
+            QQC2.Label { text: i18n("Sensitivity:") }
+            QQC2.Slider {
+                id: sensitivity
+                Layout.fillWidth: true
+                from: 25
+                to: 300
+                stepSize: 5
+            }
+            QQC2.Label { text: Math.round(sensitivity.value) + "%" }
+        }
+        Glassy.ThemeSettings { id: theme; cardOption: true }
+    }
+}

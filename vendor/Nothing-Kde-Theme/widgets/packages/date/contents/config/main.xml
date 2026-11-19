@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <!-- 0 pages, 1 pill; 2 and 3 were the month of dots and of numbers, now a calendar of the pages -->
+    <entry name="widgetVariant" type="Int">
+      <default>0</default>
+    </entry>
+    <!-- The pages' calendar: 0 its own grid, 1 a month of dots, 2 of numbers -->
+    <entry name="monthStyle" type="Int">
+      <default>0</default>
+    </entry>
+    <entry name="themeMode" type="Int">
+      <default>2</default>
+    </entry>
+    <entry name="useSystemAccent" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="monochrome" type="Bool">
+        <default>false</default>
+    </entry>
+  </group>
+</kcfg>

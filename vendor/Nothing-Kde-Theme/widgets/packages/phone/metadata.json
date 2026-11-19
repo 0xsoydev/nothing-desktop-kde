@@ -1,0 +1,28 @@
+{
+  "KPackageStructure": "Plasma/Applet",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Name": "Nothing KDE contributors"
+      },
+      {
+        "Email": "zinczorphin@email.com",
+        "Name": "Jack Faith"
+      }
+    ],
+    "Category": "System Information",
+    "Description": "Batteries of this computer, phones paired with KDE Connect and Bluetooth devices.",
+    "EnabledByDefault": true,
+    "Icon": "battery",
+    "Id": "org.nothingkde.widget.phone",
+    "License": "GPL-3.0",
+    "Name": "Nothing KDE — Devices",
+    "Version": "1.0.1",
+    "Website": "https://github.com/Contraill/Nothing-Kde-Theme",
+    "Name[tr]": "Nothing KDE — Cihazlar"
+  },
+  "X-Plasma-API-Minimum-Version": "6.0",
+  "X-Plasma-FormFactors": [
+    "planar"
+  ]
+}

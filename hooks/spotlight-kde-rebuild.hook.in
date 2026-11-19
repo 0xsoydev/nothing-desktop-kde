@@ -1,0 +1,18 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = qt6-base
+Target = qt6-declarative
+Target = qt6-wayland
+Target = kirigami
+Target = milou
+Target = krunner
+Target = layer-shell-qt
+Target = kwindowsystem
+Target = kglobalaccel
+
+[Action]
+Description = Rebuilding Spotlight (spotlight-kde) against updated Qt/KDE...
+When = PostTransaction
+Exec = /usr/bin/runuser -u @USER@ -- @REPO@/spotlight-kde/rebuild.sh

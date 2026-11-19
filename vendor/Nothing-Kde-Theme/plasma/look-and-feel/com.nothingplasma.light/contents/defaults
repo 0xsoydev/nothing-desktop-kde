@@ -1,0 +1,20 @@
+[kdeglobals][General]
+ColorScheme=NothingPlasmaLight
+
+[kdeglobals][KDE]
+widgetStyle=kvantum
+
+[kwinrc][org.kde.kdecoration2]
+library=org.kde.kwin.aurorae
+theme=org.glassy.decoration
+
+[plasmarc][Theme]
+name=NothingPlasmaLight
+
+[kdeglobals][Sounds]
+Theme=nothing-kde
+
+# One splash for both themes; it follows the active colours.
+[ksplashrc][KSplash]
+Engine=KSplashQML
+Theme=com.nothingplasma.dark

@@ -1,0 +1,11 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = plasma-desktop
+Target = plasma-workspace
+
+[Action]
+Description = Relinking the Nothing lock screen overlay against the updated Plasma shell...
+When = PostTransaction
+Exec = /usr/bin/runuser -u @USER@ -- @REPO@/nothing-lockscreen/install.sh

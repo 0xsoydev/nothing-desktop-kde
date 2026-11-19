@@ -1,0 +1,12 @@
+[SddmGreeterTheme]
+Name=Nothing Glyph
+Description=Glyph SDDM (xCaptaiN09, MIT) with a login card in the style of duckpah/Nothing-SDDM.
+Author=xCaptaiN09
+Copyright=(c) 2026 xCaptaiN09
+License=MIT
+Type=sddm-theme
+Version=1.0
+MainScript=Main.qml
+Screenshot=screenshot.png
+X-SDDM-Theme-InterfaceVersion=2
+QtVersion=6

@@ -1,0 +1,15 @@
+{
+  "KPackageStructure": "Plasma/LookAndFeel",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Name": "Nothing KDE contributors"
+      }
+    ],
+    "Description": "Nothing-inspired global theme for KDE Plasma 6, dark; its splash serves the light theme too",
+    "Id": "com.nothingplasma.dark",
+    "License": "GPL-3.0-or-later",
+    "Name": "Nothing KDE",
+    "Version": "1.0.1"
+  }
+}

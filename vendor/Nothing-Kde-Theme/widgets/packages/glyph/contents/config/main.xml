@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <!-- 0 ring, 1 arc, 2 strip, 3 line, 4 dot, 5 corner, 6 dot ring -->
+    <entry name="widgetVariant" type="Int">
+      <default>0</default>
+    </entry>
+    <!-- The zone, a tier of loudness from 1 to 5; 0 spreads the lights over the tiers in the order they were added -->
+    <entry name="glyphZone" type="Int">
+      <default>0</default>
+    </entry>
+    <!-- The line and the arc fill along with the beat instead of lighting whole -->
+    <entry name="progress" type="Bool">
+      <default>false</default>
+    </entry>
+    <!-- The line runs the other diagonal -->
+    <entry name="mirror" type="Bool">
+      <default>false</default>
+    </entry>
+    <!-- The corner's place: 0 top left, 1 top right, 2 bottom left, 3 bottom right -->
+    <entry name="corner" type="Int">
+      <default>0</default>
+    </entry>
+    <!-- The strip's segments, 2 to 16; 0 picks them from its length -->
+    <entry name="segments" type="Int">
+      <default>0</default>
+      <min>0</min>
+      <max>16</max>
+    </entry>
+    <!-- The strip lies on its side -->
+    <entry name="sideways" type="Bool">
+      <default>false</default>
+    </entry>
+    <!-- How far round the arc goes, in degrees -->
+    <entry name="arcSweep" type="Int">
+      <default>255</default>
+      <min>60</min>
+      <max>330</max>
+    </entry>
+    <!-- How readily a beat lights, in percent -->
+    <entry name="sensitivity" type="Int">
+      <default>100</default>
+      <min>25</min>
+      <max>300</max>
+    </entry>
+    <entry name="themeMode" type="Int">
+      <default>2</default>
+    </entry>
+    <entry name="useSystemAccent" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="monochrome" type="Bool">
+      <default>false</default>
+    </entry>
+    <!-- Glyph lights sit on the wallpaper, as on the phone's back -->
+    <entry name="transparent" type="Bool">
+      <default>true</default>
+    </entry>
+  </group>
+</kcfg>

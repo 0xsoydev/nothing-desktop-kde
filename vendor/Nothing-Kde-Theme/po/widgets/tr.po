@@ -1,0 +1,898 @@
+# Turkish translation of the Nothing KDE desktop widgets.
+# GPL-3.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Nothing KDE widgets\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2026-10-18 20:30+0300\n"
+"Last-Translator: Nothing KDE contributors\n"
+"Language-Team: Turkish\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "%1 circle"
+msgstr "%1 dairesi"
+
+msgid "%1 h %2 min until midnight"
+msgstr "Gece yarısına %1 sa %2 dk"
+
+msgid "%1 pill"
+msgstr "%1 hapı"
+
+msgid "A GIF, WebP or PNG; light parts light the dots"
+msgstr "GIF, WebP ya da PNG; açık kısımlar noktaları yakar"
+
+msgid "A sleeping graphics card stays asleep: it is read only while something else has woken it."
+msgstr "Uyuyan ekran kartı uyandırılmaz: yalnızca başka bir şey onu uyandırmışken okunur."
+
+msgid "Accent dot"
+msgstr "Vurgu noktası"
+
+msgid "Adds margin around the image to reveal the dark background, creating a frame effect"
+msgstr "Görselin çevresinde boşluk bırakarak arka planı çerçeve olarak gösterir"
+
+msgid "Airplane"
+msgstr "Uçak"
+
+msgid "All glyph widgets, however many, play one show to the same beat: soft passages glow softly and hits flash. On every beat the lead moves on to the next light, in a walk that changes every eight beats; the zone is a tier of loudness, so harder hits light more zones and the hardest light all. Auto spreads the lights over the zones in the order they were added."
+msgstr "Kaç tane olursa olsun tüm glyph widget'ları aynı vuruşa tek bir gösteri sunar: sakin bölümler yumuşakça ışır, vuruşlar parlar. Her vuruşta öndeki ışık bir sonrakine geçer ve bu yürüyüş her sekiz vuruşta değişir; bölge bir şiddet kademesidir, vuruş sertleştikçe daha çok bölge yanar, en serti hepsini yakar. Otomatik, ışıkları eklenme sırasına göre bölgelere dağıtır."
+
+msgid "Animations made for the phone's Glyph Matrix can be shown as GIFs; Glyph Toys themselves are Android apps and cannot run here."
+msgstr "Telefonun Glyph Matrisi için yapılmış animasyonlar GIF olarak gösterilebilir; Glyph Toy'ların kendisi Android uygulamasıdır ve burada çalışamaz."
+
+msgid "Appearance"
+msgstr "Görünüm"
+
+msgid "Arc"
+msgstr "Yay"
+
+msgid "Arc length:"
+msgstr "Yay uzunluğu:"
+
+msgid "Auto"
+msgstr "Otomatik"
+
+msgid "Automatically creates a circle (if square) or pill shape (if rectangular). When disabled, uses standard rounded corners."
+msgstr "Kare alanda daire, dikdörtgende hap biçimi oluşturur. Kapalıyken standart yuvarlatılmış köşeler kullanılır."
+
+msgid "BREAK"
+msgstr "MOLA"
+
+msgid "Back to focus."
+msgstr "Odaklanma zamanı."
+
+msgid "Balanced"
+msgstr "Dengeli"
+
+msgid "Bars"
+msgstr "Çubuklar"
+
+msgid "Blocks"
+msgstr "Bloklar"
+
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgid "Bluetooth device"
+msgstr "Bluetooth cihazı"
+
+msgid "Border Settings"
+msgstr "Çerçeve ayarları"
+
+msgid "Border Size:"
+msgstr "Çerçeve kalınlığı:"
+
+msgid "Bottom left"
+msgstr "Sol alt"
+
+msgid "Bottom right"
+msgstr "Sağ alt"
+
+msgid "Break (minutes):"
+msgstr "Mola (dakika):"
+
+msgid "Break is over"
+msgstr "Mola bitti"
+
+msgid "Browse..."
+msgstr "Göz at..."
+
+msgid "Browse…"
+msgstr "Gözat…"
+
+msgid "Bubbles"
+msgstr "Kabarcıklar"
+
+msgid "CHARGING"
+msgstr "ŞARJ OLUYOR"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Calendar:"
+msgstr "Takvim:"
+
+msgid "Cards"
+msgstr "Kartlar"
+
+msgid "Cat"
+msgstr "Kedi"
+
+msgid "Celsius (°C)"
+msgstr "Santigrat (°C)"
+
+msgid "Charging"
+msgstr "Şarj oluyor"
+
+msgid "Choose Style"
+msgstr "Görünüm seç"
+
+msgid "Choose a picture"
+msgstr "Bir resim seç"
+
+msgid "Choose a style"
+msgstr "Bir stil seç"
+
+msgid "Choose between Celsius and Fahrenheit for temperature display."
+msgstr "Sıcaklığın gösterileceği Santigrat veya Fahrenhayt birimini seçin."
+
+msgid "Circle"
+msgstr "Daire"
+
+msgid "Circle Pages"
+msgstr "Dairesel sayfalar"
+
+msgid "Circles"
+msgstr "Daireler"
+
+msgid "Circular"
+msgstr "Dairesel"
+
+msgid "City Name:"
+msgstr "Şehir adı:"
+
+msgid "Classic"
+msgstr "Klasik"
+
+msgid "Clear"
+msgstr "Açık"
+
+msgid "Clock"
+msgstr "Saat"
+
+msgid "Coffee"
+msgstr "Kahve"
+
+msgid "Coffee mode from the quick toggles"
+msgstr "Hızlı geçişlerden kahve modu"
+
+msgid "Computer"
+msgstr "Bilgisayar"
+
+msgid "Convert the image to black and white (grayscale)"
+msgstr "Görseli siyah beyaza (gri tonlara) dönüştürür"
+
+msgid "Corner"
+msgstr "Köşe"
+
+msgid "Corner:"
+msgstr "Köşe:"
+
+msgid "Countdown"
+msgstr "Geri sayım"
+
+msgid "Countdown circle"
+msgstr "Geri sayım daire"
+
+msgid "Counts the time the computer is on, from when the widget first runs; a day's bar fills at 24 hours."
+msgstr "Bilgisayarın açık kaldığı süreyi widget ilk çalıştığı andan itibaren sayar; bir günün çubuğu 24 saatte dolar."
+
+msgid "Crop (Fill Frame)"
+msgstr "Kırp (çerçeveyi doldur)"
+
+msgid "Crop: Fills the frame completely, may crop parts of the image\nFit: Shows the entire image, may have letterboxing\nStretch: Fills frame completely, may distort the image"
+msgstr "Kırp: Çerçeveyi doldurur, görselin bir kısmını kesebilir\nSığdır: Görselin tamamını gösterir, kenarlarda boşluk bırakabilir\nUzat: Çerçeveyi doldurur, görselin oranını bozabilir"
+
+msgid "DAY"
+msgstr "GÜN"
+
+msgid "DAY %1"
+msgstr "GÜN %1"
+
+msgid "DISK"
+msgstr "DİSK"
+
+msgid "Dark"
+msgstr "Karanlık"
+
+msgid "Day %1"
+msgstr "%1. gün"
+
+msgid "Day to year"
+msgstr "Günden yıla"
+
+msgid "Dense Drizzle"
+msgstr "Yoğun çisenti"
+
+msgid "Depositing Rime Fog"
+msgstr "Kırağılı sis"
+
+msgid "Device:"
+msgstr "Cihaz:"
+
+msgid "Devices appear here once they have been connected with a battery reading."
+msgstr "Cihazlar, pil bilgisiyle bir kez bağlandıklarında burada görünür."
+
+msgid "Devices:"
+msgstr "Cihazlar:"
+
+msgid "Digital Clock"
+msgstr "Dijital saat"
+
+msgid "Discharging"
+msgstr "Boşalıyor"
+
+msgid "Disk"
+msgstr "Disk"
+
+msgid "Display the current date above the time (e.g., \"Thu, 31 Jan\")"
+msgstr "Güncel tarihi saatin üzerinde gösterir (ör. \"Per, 31 Oca\")"
+
+msgid "Do not disturb"
+msgstr "Rahatsız etme"
+
+msgid "Dog"
+msgstr "Köpek"
+
+msgid "Dot"
+msgstr "Nokta"
+
+msgid "Dot ring"
+msgstr "Nokta halkası"
+
+msgid "Dots"
+msgstr "Noktalar"
+
+msgid "Dotted"
+msgstr "Noktalı"
+
+msgid "Double-click to choose an image"
+msgstr "Görsel seçmek için çift tıklayın"
+
+msgid "Draw from a picture"
+msgstr "Bir resimden çiz"
+
+msgid "Drawing"
+msgstr "Çizim"
+
+msgid "Drizzle"
+msgstr "Çisenti"
+
+msgid "Earbuds"
+msgstr "Kulak içi kulaklık"
+
+msgid "Effects"
+msgstr "Efektler"
+
+msgid "Embrace the void"
+msgstr "Boşluğu kucakla"
+
+msgid "Enable Borders"
+msgstr "Çerçeveyi etkinleştir"
+
+msgid "Enter a city name, optionally followed by a country (e.g., 'Victoria, Canada'). For ambiguous or hard-to-find places, enter exact coordinates as 'Label|latitude,longitude'."
+msgstr "Şehir adı ve isteğe bağlı ülke girin (ör. 'İstanbul, Türkiye'). Bulunamayan yerler için 'Ad|enlem,boylam' biçiminde koordinat girebilirsiniz."
+
+msgid "Enter the city name to display on the widget."
+msgstr "Widget üzerinde gösterilecek şehir adını girin."
+
+msgid "Eraser"
+msgstr "Silgi"
+
+msgid "FOCUS"
+msgstr "ODAK"
+
+msgid "FRI"
+msgstr "CUM"
+
+msgid "Fahrenheit (°F)"
+msgstr "Fahrenhayt (°F)"
+
+msgid "Failed to load image"
+msgstr "Görsel yüklenemedi"
+
+msgid "Fill along with the beat, like a progress bar"
+msgstr "Vuruşla birlikte ilerleme çubuğu gibi dolsun"
+
+msgid "Fit (Show All)"
+msgstr "Sığdır (tamamını göster)"
+
+msgid "Fit Mode:"
+msgstr "Sığdırma biçimi:"
+
+msgid "Focus (minutes):"
+msgstr "Odak (dakika):"
+
+msgid "Focus finished"
+msgstr "Odak süresi bitti"
+
+msgid "Fog"
+msgstr "Sisli"
+
+msgid "Follow System"
+msgstr "Sistemi izle"
+
+msgid "Follow System matches the KDE light or dark scheme. Monochrome drops the red marks; the system accent replaces Nothing red."
+msgstr "Sistemi izle, KDE açık/koyu düzenine uyar. Tek renkli, kırmızı işaretleri kaldırır; sistem vurgu rengi Nothing kırmızısının yerini alır."
+
+msgid "Font Style:"
+msgstr "Yazı tipi:"
+
+msgid "Frame"
+msgstr "Çerçeve"
+
+msgid "Freezing Drizzle"
+msgstr "Dondurucu çisenti"
+
+msgid "Freezing Rain"
+msgstr "Dondurucu yağmur"
+
+msgid "From a picture…"
+msgstr "Bir resimden…"
+
+msgid "Full"
+msgstr "Tam"
+
+msgid "GPU"
+msgstr "GPU"
+
+msgid "Game controller"
+msgstr "Oyun kumandası"
+
+msgid "General"
+msgstr "Genel"
+
+msgid "Good afternoon"
+msgstr "İyi öğleden sonralar"
+
+msgid "Good evening"
+msgstr "İyi akşamlar"
+
+msgid "Good morning"
+msgstr "Günaydın"
+
+msgid "Grayscale"
+msgstr "Gri tonlama"
+
+msgid "H"
+msgstr "S"
+
+msgid "Hamster"
+msgstr "Hamster"
+
+msgid "Headphones"
+msgstr "Kulaklık"
+
+msgid "Heavy Rain"
+msgstr "Şiddetli yağmur"
+
+msgid "Heavy Snow"
+msgstr "Yoğun kar"
+
+msgid "Heavy Snow Showers"
+msgstr "Yoğun kar sağanağı"
+
+msgid "Heavy Thunderstorm with Hail"
+msgstr "Dolu ve şiddetli gök gürültülü fırtına"
+
+msgid "Hotspot"
+msgstr "Erişim noktası"
+
+msgid "Image"
+msgstr "Görsel"
+
+msgid "Image Error"
+msgstr "Görsel hatası"
+
+msgid "Image Fit Mode"
+msgstr "Görsel sığdırma"
+
+msgid "Image Source"
+msgstr "Görsel kaynağı"
+
+msgid "Invert"
+msgstr "Tersine çevir"
+
+msgid "Inverted"
+msgstr "Ters"
+
+msgid "Keep going"
+msgstr "Devam et"
+
+msgid "Keyboard"
+msgstr "Klavye"
+
+msgid "LONG BREAK"
+msgstr "UZUN MOLA"
+
+msgid "Laptop"
+msgstr "Dizüstü"
+
+msgid "Life"
+msgstr "Hayat"
+
+msgid "Light"
+msgstr "Aydınlık"
+
+msgid "Light Drizzle"
+msgstr "Hafif çisenti"
+
+msgid "Light Freezing Drizzle"
+msgstr "Hafif dondurucu çisenti"
+
+msgid "Light Freezing Rain"
+msgstr "Hafif dondurucu yağmur"
+
+msgid "Line"
+msgstr "Çizgi"
+
+msgid "Loading..."
+msgstr "Yükleniyor..."
+
+msgid "Location not found"
+msgstr "Konum bulunamadı"
+
+msgid "Location:"
+msgstr "Konum:"
+
+msgid "Long break (minutes):"
+msgstr "Uzun mola (dakika):"
+
+msgid "MEMORY"
+msgstr "BELLEK"
+
+msgid "MON"
+msgstr "PZT"
+
+msgid "MONTH"
+msgstr "AY"
+
+msgid "MUTED"
+msgstr "SESSİZ"
+
+msgid "Mainly Clear"
+msgstr "Genellikle açık"
+
+msgid "Mantra"
+msgstr "Mantra"
+
+msgid "Mantra pill"
+msgstr "Mantra hapı"
+
+msgid "Memory"
+msgstr "Bellek"
+
+msgid "Microphone"
+msgstr "Mikrofon"
+
+msgid "Minimalist"
+msgstr "Sade"
+
+msgid "Monochrome"
+msgstr "Tek renkli"
+
+msgid "Mouse"
+msgstr "Fare"
+
+msgid "Muted"
+msgstr "Sessiz"
+
+msgid "NOTE"
+msgstr "NOT"
+
+msgid "Network"
+msgstr "Ağ"
+
+msgid "Network pill"
+msgstr "Ağ hapı"
+
+msgid "Night light"
+msgstr "Gece ışığı"
+
+msgid "No Image"
+msgstr "Görsel yok"
+
+msgid "No battery"
+msgstr "Pil yok"
+
+msgid "No device is chosen in the settings"
+msgstr "Ayarlarda seçili cihaz yok"
+
+msgid "No device with a battery is connected"
+msgstr "Pili olan bağlı cihaz yok"
+
+msgid "Note"
+msgstr "Not"
+
+msgid "Nothing playing"
+msgstr "Çalan bir şey yok"
+
+msgid "Nothing to fear"
+msgstr "Korkacak bir şey yok"
+
+msgid "Numbers"
+msgstr "Sayılar"
+
+msgid "On its side"
+msgstr "Yan yatır"
+
+msgid "On the wallpaper, without a card"
+msgstr "Kart olmadan, doğrudan duvar kağıdında"
+
+msgid "Outline"
+msgstr "Dış hat"
+
+msgid "Overcast"
+msgstr "Kapalı"
+
+msgid "Pages"
+msgstr "Sayfalar"
+
+msgid "Partly Cloudy"
+msgstr "Parçalı bulutlu"
+
+msgid "Pause"
+msgstr "Duraklat"
+
+msgid "Performance"
+msgstr "Performans"
+
+msgid "Pet:"
+msgstr "Evcil hayvan:"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Phones and tablets come from KDE Connect, the rest from Bluetooth; clicking a phone opens it in KDE Connect."
+msgstr "Telefon ve tabletler KDE Connect'ten, diğerleri Bluetooth'tan gelir; bir telefona tıklamak onu KDE Connect'te açar."
+
+msgid "Picture"
+msgstr "Resim"
+
+msgid "Picture:"
+msgstr "Resim:"
+
+msgid "Pictures (*.gif *.webp *.png *.jpg *.jpeg *.svg)"
+msgstr "Resimler (*.gif *.webp *.png *.jpg *.jpeg *.svg)"
+
+msgid "Pill"
+msgstr "Hap"
+
+msgid "Pill Shape"
+msgstr "Hap biçimi"
+
+msgid "Player"
+msgstr "Oynatıcı"
+
+msgid "Power profile"
+msgstr "Güç profili"
+
+msgid "Power saver"
+msgstr "Güç tasarrufu"
+
+msgid "Pulse"
+msgstr "Nabız"
+
+msgid "Radar"
+msgstr "Radar"
+
+msgid "Rain"
+msgstr "Yağmur"
+
+msgid "Rain Showers"
+msgstr "Sağanak"
+
+msgid "Remaining"
+msgstr "Kalan"
+
+msgid "Reset"
+msgstr "Sıfırla"
+
+msgid "Resize the widget to stretch it: lines run corner to corner, or straight when long and thin; the strip gains segments; the corner's arms follow the edges."
+msgstr "Uzatmak için widget'ı yeniden boyutlandır: çizgiler köşeden köşeye, uzun ve inceyse düz uzanır; şerit yeni bölümler kazanır; köşenin kolları kenarları izler."
+
+msgid "Right-click to configure"
+msgstr "Ayarlamak için sağ tıklayın"
+
+msgid "Ring"
+msgstr "Halka"
+
+msgid "Rings"
+msgstr "Halkalar"
+
+msgid "Robot"
+msgstr "Robot"
+
+msgid "Rounds before a long break:"
+msgstr "Uzun moladan önceki tur:"
+
+msgid "SAT"
+msgstr "CMT"
+
+msgid "SUN"
+msgstr "PAZ"
+
+msgid "Segmented"
+msgstr "Parçalı"
+
+msgid "Segmented Sharp"
+msgstr "Keskin parçalı"
+
+msgid "Segments:"
+msgstr "Bölüm sayısı:"
+
+msgid "Select a photo to display in the widget (PNG, JPG, JPEG, WebP)"
+msgstr "Widget üzerinde gösterilecek fotoğrafı seçin (PNG, JPG, JPEG, WebP)"
+
+msgid "Select a timezone from the list above. The widget will display the time for the selected location."
+msgstr "Yukarıdan bir saat dilimi seçin. Widget seçilen konumun saatini gösterir."
+
+msgid "Select an Image"
+msgstr "Görsel seç"
+
+msgid "Select an image file..."
+msgstr "Bir görsel dosyası seçin..."
+
+msgid "Sensitivity:"
+msgstr "Hassasiyet:"
+
+msgid "Serif"
+msgstr "Serif"
+
+msgid "Shape Settings"
+msgstr "Şekil ayarları"
+
+msgid "Short pill"
+msgstr "Kısa hap"
+
+msgid "Show Date"
+msgstr "Tarihi göster"
+
+msgid "Show the date"
+msgstr "Tarihi göster"
+
+msgid "Show the day"
+msgstr "Günü göster"
+
+msgid "Show the month"
+msgstr "Ayı göster"
+
+msgid "Show the time"
+msgstr "Saati göster"
+
+msgid "Show the week"
+msgstr "Haftayı göster"
+
+msgid "Show time in 24-hour format (e.g., 14:30) instead of 12-hour format (e.g., 2:30)"
+msgstr "Saati 12 saat biçimi (ör. 2:30) yerine 24 saat biçiminde (ör. 14:30) gösterir"
+
+msgid "Shows:"
+msgstr "Gösterilenler:"
+
+msgid "Skip"
+msgstr "Atla"
+
+msgid "Slight Rain"
+msgstr "Hafif yağmur"
+
+msgid "Slight Rain Showers"
+msgstr "Hafif sağanak"
+
+msgid "Slight Snow"
+msgstr "Hafif kar"
+
+msgid "Slight Snow Showers"
+msgstr "Hafif kar sağanağı"
+
+msgid "Smooth Moving Second Hand"
+msgstr "Akıcı saniye ibresi"
+
+msgid "Snow"
+msgstr "Kar"
+
+msgid "Snow Grains"
+msgstr "Kar taneleri"
+
+msgid "Sound"
+msgstr "Ses"
+
+msgid "Speaker"
+msgstr "Hoparlör"
+
+msgid "Square"
+msgstr "Kare"
+
+msgid "Start"
+msgstr "Başlat"
+
+msgid "Status"
+msgstr "Durum"
+
+msgid "Stay focused"
+msgstr "Odaklan"
+
+msgid "Stretch"
+msgstr "Uzat"
+
+msgid "Strip"
+msgstr "Şerit"
+
+msgid "Style:"
+msgstr "Görünüm:"
+
+msgid "Swiss Railway"
+msgstr "İsviçre demiryolu"
+
+msgid "THU"
+msgstr "PER"
+
+msgid "TUE"
+msgstr "SAL"
+
+msgid "Tablet"
+msgstr "Tablet"
+
+msgid "Tall pill"
+msgstr "Dikey hap"
+
+msgid "Temperature Unit:"
+msgstr "Sıcaklık birimi:"
+
+msgid "The bands follow how loud the sound output is; raise the sensitivity for quiet sound."
+msgstr "Çubuklar ses çıkışının yüksekliğini izler; ses kısıkken hassasiyeti artır."
+
+msgid "The other diagonal"
+msgstr "Ters köşegen"
+
+msgid "Theme:"
+msgstr "Tema:"
+
+msgid "This computer"
+msgstr "Bu bilgisayar"
+
+msgid "Thunderstorm"
+msgstr "Gök gürültülü fırtına"
+
+msgid "Thunderstorm with Hail"
+msgstr "Dolu ve gök gürültülü fırtına"
+
+msgid "Time Zone:"
+msgstr "Saat dilimi:"
+
+msgid "Time for a break."
+msgstr "Mola zamanı."
+
+msgid "Toggle:"
+msgstr "Geçiş:"
+
+msgid "Toggles"
+msgstr "Anahtarlar"
+
+msgid "Top left"
+msgstr "Sol üst"
+
+msgid "Top right"
+msgstr "Sağ üst"
+
+msgid "Turn the page at its corner to see the calendar; the wheel leafs through the months."
+msgstr "Takvimi görmek için sayfayı köşesinden çevir; tekerlek aylar arasında gezdirir."
+
+msgid "Two tone"
+msgstr "İki ton"
+
+msgid "Unknown"
+msgstr "Bilinmiyor"
+
+msgid "Until midnight"
+msgstr "Gece yarısına"
+
+msgid "Update second hand every 50ms instead of 1000ms ( 1s ) for a smoother motion"
+msgstr "Daha akıcı hareket için saniye ibresini 1000 ms yerine 50 ms aralıklarla günceller"
+
+msgid "Uptime"
+msgstr "Çalışma süresi"
+
+msgid "Use 24-Hour Format"
+msgstr "24 saat biçimini kullan"
+
+msgid "Use Darker Font Color"
+msgstr "Koyu yazı rengi kullan"
+
+msgid "Use a darker font color for better visibility on lighter backgrounds"
+msgstr "Açık arka planlarda okunabilirlik için koyu yazı rengi kullanır"
+
+msgid "Use system accent color"
+msgstr "Sistem vurgu rengini kullan"
+
+msgid "VOL"
+msgstr "SES"
+
+msgid "VOLUME"
+msgstr "SES DÜZEYİ"
+
+msgid "Violent Rain Showers"
+msgstr "Şiddetli sağanak"
+
+msgid "Volume"
+msgstr "Ses"
+
+msgid "Volume bar"
+msgstr "Ses çubuğu"
+
+msgid "Volume dots"
+msgstr "Ses noktaları"
+
+msgid "Volume pill"
+msgstr "Ses hapı"
+
+msgid "Volume ring"
+msgstr "Ses halkası"
+
+msgid "WED"
+msgstr "ÇAR"
+
+msgid "WEEK"
+msgstr "HAFTA"
+
+msgid "Watch"
+msgstr "Akıllı saat"
+
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+msgid "Wide"
+msgstr "Geniş"
+
+msgid "Wide pill"
+msgstr "Geniş hap"
+
+msgid "World Clock"
+msgstr "Dünya saati"
+
+msgid "Write a mantra…"
+msgstr "Bir mantra yaz…"
+
+msgid "Write something…"
+msgstr "Bir şeyler yaz…"
+
+msgid "YEAR"
+msgstr "YIL"
+
+msgid "Year"
+msgstr "Yıl"
+
+msgid "Year circle"
+msgstr "Yıl daire"
+
+msgid "Year ring"
+msgstr "Yıl halkası"
+
+msgid "You can change it later in the settings."
+msgstr "Bunu sonra ayarlardan değiştirebilirsin."
+
+msgid "You got this"
+msgstr "Başarırsın"
+
+msgid "Zone:"
+msgstr "Bölge:"
+
+msgid "can be changed later in configuration"
+msgstr "daha sonra ayarlardan değiştirilebilir"
+
+msgid "e.g., Famagusta, New York, Tokyo"
+msgstr "örn. Mağusa, New York, Tokyo"
+
+msgid "e.g., Victoria, Canada or Home|48.4284,-123.3656"
+msgstr "ör. İstanbul, Türkiye veya Ev|41.0082,28.9784"

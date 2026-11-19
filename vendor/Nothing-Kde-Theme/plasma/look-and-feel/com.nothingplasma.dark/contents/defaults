@@ -1,0 +1,15 @@
+[kdeglobals][General]
+ColorScheme=NothingPlasmaDark
+
+[kdeglobals][KDE]
+widgetStyle=kvantum
+
+[kwinrc][org.kde.kdecoration2]
+library=org.kde.kwin.aurorae
+theme=org.glassy.decoration
+
+[plasmarc][Theme]
+name=NothingPlasmaDark
+
+[kdeglobals][Sounds]
+Theme=nothing-kde

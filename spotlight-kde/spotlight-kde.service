@@ -1,0 +1,12 @@
+[Unit]
+Description=Spotlight launcher (Alt+Space)
+PartOf=graphical-session.target
+After=plasma-workspace.target
+
+[Service]
+ExecStart=%h/.local/bin/spotlight-kde
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=plasma-workspace.target

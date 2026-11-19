@@ -1,0 +1,8 @@
+/dist/
+/notification-skin/build/
+**/__pycache__/
+*.py[cod]
+/packaging/store-ids.json
+*.log
+*.bak
+*~
